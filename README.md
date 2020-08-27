@@ -127,6 +127,11 @@ automatically send to the _update_ path.
 Since `@article` is not a new instance of `Article`, the inputs on this form, the text
 field and text area, will be populated with the corresponding object values.
 
+
+
+
+
+
 When submitted, the form will be routed to the `update` action. Before we
 try to implement the `update` action, let's first make sure the data is being
 routed properly. Enter the following code inside of the `update` method:
